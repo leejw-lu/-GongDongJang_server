@@ -135,7 +135,6 @@ router.post('/push', async (req, res) => {
             createPickUpMessage(title,content,userno,tomorrow);
         }
     }
-
 })
 
 module.exports = router; 
